@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "0cb4ebfbdda17b287fd472b41b977c8240cab600",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-09-04T13:20:00.000Z",
       "message": "feat(totalizador): agregar contador básico de items con ingreso y visualización",
-      "url": "https://github.com/HenryRiveraM/totalizador/commit/HEAD"
+      "url": "https://github.com/HenryRiveraM/totalizador/commit/0cb4ebfbdda17b287fd472b41b977c8240cab600"
     },
     "stats": {
       "total": 55,
       "additions": 55,
       "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-09-04T13:30:01.000Z",
+      "message": "feat(index): agregar página básica con botón para ingresar ítems y mostrar cantidad",
+      "url": "https://github.com/HenryRiveraM/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 51,
+      "additions": 33,
+      "deletions": 18,
       "date": "2025-09-04"
     },
     "coverage": 100,
