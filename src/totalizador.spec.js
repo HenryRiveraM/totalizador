@@ -21,5 +21,19 @@ describe("Totalizador - Cantidad de items", () => {
   expect(t.obtenerCantidad()).toEqual(3);
 });
 
+});
+
+describe("Totalizador - Precio por item", () => {
+  it("inicia con precio 0", () => {
+    const t = new Totalizador();
+    expect(t.obtenerPrecio()).toEqual(0);
+  });
+
+    it("establece el precio por item", () => {
+    const t = new Totalizador();
+    t.setPrecio(10);
+    expect(t.obtenerPrecio()).toEqual(10);
+  });
+
 
 });
