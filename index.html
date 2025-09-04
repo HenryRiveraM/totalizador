@@ -2,24 +2,32 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <title>Totalizador – Inciso 1</title>
+  <title>Totalizador – Inciso 2</title>
 </head>
 <body>
-  <h1>Totalizador de ítems</h1>
+  <h1>Totalizador</h1>
 
   <p>Cantidad de ítems: <strong id="cantidad">0</strong></p>
-
   <button id="ingresar">Ingresar ítem</button>
+
+  <p>Precio por ítem: <strong id="precio">0</strong></p>
+  <input type="number" id="precioInput" placeholder="Ingresa precio" />
+  <button id="guardarPrecio">Guardar precio</button>
 
   <script type="module">
     import Totalizador from "./src/totalizador.js";
 
     const totalizador = new Totalizador();
     const cantidadEl = document.getElementById("cantidad");
+    const precioEl = document.getElementById("precio");
+
     const btnIngresar = document.getElementById("ingresar");
+    const btnGuardarPrecio = document.getElementById("guardarPrecio");
+    const precioInput = document.getElementById("precioInput");
 
     const render = () => {
       cantidadEl.textContent = totalizador.obtenerCantidad();
+      precioEl.textContent = totalizador.obtenerPrecio();
     };
 
     btnIngresar.addEventListener("click", () => {
@@ -27,7 +35,13 @@
       render();
     });
 
-    // Mostrar estado inicial (0)
+    btnGuardarPrecio.addEventListener("click", () => {
+      const valor = Number(precioInput.value);
+      totalizador.setPrecio(valor);
+      render();
+    });
+
+    // Estado inicial
     render();
   </script>
 </body>

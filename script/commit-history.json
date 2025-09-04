@@ -38,17 +38,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d2987759fe2c2beada29bc4f9a37b42f2ee9c890",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-09-04T13:45:06.000Z",
       "message": "feat(totalizador): agregar precio por ítem con métodos setPrecio y obtenerPrecio",
-      "url": "https://github.com/HenryRiveraM/totalizador/commit/HEAD"
+      "url": "https://github.com/HenryRiveraM/totalizador/commit/d2987759fe2c2beada29bc4f9a37b42f2ee9c890"
     },
     "stats": {
       "total": 39,
       "additions": 31,
       "deletions": 8,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-09-04T13:56:51.000Z",
+      "message": "feat(index): agregar campo e interacción para mostrar y guardar precio por ítem",
+      "url": "https://github.com/HenryRiveraM/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 18,
+      "deletions": 4,
       "date": "2025-09-04"
     },
     "coverage": 100,
