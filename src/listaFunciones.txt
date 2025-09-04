@@ -1,0 +1,17 @@
+PLAN DE PRUEBAS TOTALIZADOR
+1.⁠ ⁠Ingresar y mostrar Cantidad de items
+2.⁠ ⁠Ingresar y mostrar Precio por item
+3.⁠ ⁠Ingresar y mostrar Código de estado
+4.⁠ ⁠Mostrar el precio neto apretando el botón 'Totalizar'
+5.⁠ ⁠Mostrar el impuesto para CA y total con este impuesto
+6.⁠ ⁠Mostrar el impuesto para NV y total con este impuesto
+7.⁠ ⁠Mostrar el impuesto para TX y total con este impuesto
+8.⁠ ⁠Mostrar el impuesto para AL y total con este impuesto
+9.⁠ ⁠Mostrar el impuesto para UT y total con este impuesto
+10.⁠ ⁠Mostrar el descuento si el precio > 1000 => 3% y total con este descuento
+11.⁠ ⁠Mostrar el descuento si el precio > 3000 => 5% y total con este descuento
+12.⁠ ⁠Mostrar el descuento si el precio > 7000 => 7% y total con este descuento
+13.⁠ ⁠Mostrar el descuento si el precio > 10000 => 10% y total con este descuento
+14.⁠ ⁠Mostrar el descuento si el precio > 30000 => 15% y total con este descuentos
+15.⁠ ⁠Mostrar un mensaje de error cuando se ingresa una cantidad negativa
+16.⁠ ⁠Mostrar un mensaje de error cuando se ingresa un precio negativo o 0
